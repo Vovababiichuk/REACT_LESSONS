@@ -17,3 +17,55 @@ body {
 main {
   flex: 1;
 }
+
+.header {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: rgb(73, 255, 212);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: rgb(73, 255, 212);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: beige;
+}
+
+.item label {
+  flex: 1;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.item input {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.item svg {
+  width: 48px;
+  height: 48px;
+  color:brown;
+  cursor: pointer;
+}
+
+.item svg:hover,
+.item svg:focus {
+  color: red;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s;
+  outline: none;
+}
